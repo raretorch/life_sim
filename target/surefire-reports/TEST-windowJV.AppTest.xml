@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="windowJV.AppTest" time="0.098" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="windowJV.AppTest" time="0.103" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/raretorch/Code/SwingTest/windowJV/target/surefire/surefirebooter2663948083883552207.jar /Users/raretorch/Code/SwingTest/windowJV/target/surefire 2023-07-07T16-46-48_317-jvmRun1 surefire13774765548122485964tmp surefire_013925979106748476256tmp"/>
+    <property name="sun.java.command" value="/Users/raretorch/Code/SwingTest/windowJV/target/surefire/surefirebooter2418629913264419034.jar /Users/raretorch/Code/SwingTest/windowJV/target/surefire 2023-07-07T19-53-25_100-jvmRun1 surefire2162342687901046641tmp surefire_015335756000653771628tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/raretorch/Code/SwingTest/windowJV/target/test-classes:/Users/raretorch/Code/SwingTest/windowJV/target/classes:/Users/raretorch/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/raretorch/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/raretorch/Code/SwingTest/windowJV/target/surefire/surefirebooter2663948083883552207.jar"/>
+    <property name="surefire.real.class.path" value="/Users/raretorch/Code/SwingTest/windowJV/target/surefire/surefirebooter2418629913264419034.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="20.0.1"/>
@@ -58,5 +58,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="windowJV.AppTest" time="0.006"/>
+  <testcase name="shouldAnswerWithTrue" classname="windowJV.AppTest" time="0.005"/>
 </testsuite>

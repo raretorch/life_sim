@@ -53,7 +53,7 @@ public class interfaceController {
     pan.add(pauseButton);
 
     JButton resetButton = new JButton("Update");
-    resetButton.setBounds(1, 35, 230, 25);
+    resetButton.setBounds(1, 35, 115, 25);
     resetButton.addMouseListener(new MouseAdapter() {
       public void mouseClicked(MouseEvent e) {
         restarting = 0;
@@ -71,6 +71,26 @@ public class interfaceController {
       }
     });
     pan.add(resetButton);
+
+    JButton randomButton = new JButton("Randomize");
+    randomButton.setBounds(120, 35, 110, 25);
+    randomButton.addMouseListener(new MouseAdapter() {
+      public void mouseClicked(MouseEvent e) {
+          try {
+            for (int k = 0; k < 5; k++){
+              for (int l = 0; l < 5; l++) {
+                App.relations[k][l] = Math.random() * 4 - 2;
+                relationsFields[k][l].setText(String.format("%.1f", App.relations[k][l]));
+              }
+            }
+            restarting = 0;
+          } catch (Exception ex) {
+            restarting = 2;
+            return;
+          }
+      }
+    });
+    pan.add(randomButton);
 
     JSlider time = new JSlider(1,1000,500);
     time.setBounds(3, App.winY - 32, 230, 25);
