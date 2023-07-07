@@ -115,7 +115,7 @@ public class Dot
         if (force > 500){
             force = 500;
         }
-        force *= App.relations[this.color][color];
+        force *= (App.relations[this.color][color] / 5);
         
         return force;
     }

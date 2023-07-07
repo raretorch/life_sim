@@ -28,9 +28,9 @@ public class App
     public static double wallForce = 10;
     public static double wallAspectRatio = 1.5;
     private static Dot[] dotMeshInstance;
-    public static double[][] relations = new double[5][5];
+    public static int[][] relations = new int[5][5];
 
-    public static double TIME_MODIFIER = 0.001;
+    public static double TIME_MODIFIER = 0.005;
     public static final double GRAV_CONST = 6.67;
 
 

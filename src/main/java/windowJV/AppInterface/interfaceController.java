@@ -79,8 +79,8 @@ public class interfaceController {
           try {
             for (int k = 0; k < 5; k++){
               for (int l = 0; l < 5; l++) {
-                App.relations[k][l] = Math.random() * 4 - 2;
-                relationsFields[k][l].setText(String.format("%.1f", App.relations[k][l]));
+                App.relations[k][l] = (int)(Math.random() * 20 - 10);
+                relationsFields[k][l].setText(String.valueOf(App.relations[k][l]));
               }
             }
             restarting = 0;
@@ -177,7 +177,8 @@ public class interfaceController {
             try {
               for (int k = 0; k < 5; k++){
                 for (int l = 0; l < 5; l++) {
-                  App.relations[k][l] = Double.parseDouble(relationsFields[k][l].getText());
+                  App.relations[k][l] = Integer.parseInt(relationsFields[k][l].getText());
+                  
                 }
               }
               restarting = 0;
